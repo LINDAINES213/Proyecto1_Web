@@ -1,0 +1,134 @@
+@font-face {
+    font-family: Megabyte;
+    font-style: normal;
+    font-weight: 400;
+    src: url('/db.onlinewebfonts.com/t/2566fcbfa72212c1cadad4627e4998e2.woff2') format('woff2'),
+    url("//db.onlinewebfonts.com/t/2566fcbfa72212c1cadad4627e4998e2.woff") format("woff");
+  }
+
+@font-face {
+    font-family: MegabyteBold;
+    font-style: normal;
+    font-weight: 700;
+    src: url("//db.onlinewebfonts.com/t/7374957f01c062a535549b345d32dc1b.woff2") format("woff2"), 
+    url("//db.onlinewebfonts.com/t/7374957f01c062a535549b345d32dc1b.woff") format("woff");
+  }
+
+.BarraInicial_desktop {
+    position: relative;
+    background-color: #FFF;
+    transform: translateX(0);
+    top: 0;
+    height: auto;
+    height: 110px;
+    transition: none;
+    left: 0;
+    display: flex;
+    width: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+    min-height: 100vh;
+    background-color: #fff;
+    color: #000;
+    font-family: Megabyte, sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.45;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    direction: ltr;
+}
+
+div{
+    padding: 0;
+    border: 0;
+    margin: 0;
+    font-size: 100%;
+    vertical-align: initial;
+    font-family: Megabyte, sans-serif;
+}
+
+.BarraInicial_logo img{
+    display: block;
+    margin: 0 auto;
+    width: 220px;
+    left: 509.5px;
+    position:relative;
+}
+
+.BarraInicialContent{
+    width: 100%;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    background-color: #FFF;
+    z-index: -1;
+}
+
+.BarraInicial{
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: initial;
+    position:absolute;
+    width: 100%;
+    margin: 0 0;
+    top: 0;
+    left:0;
+    height: fit-content;
+    background-position: center;
+}
+
+.BarraInicial__bottom {
+    flex-direction: row;
+    margin-left: 4px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    font-family: Megabyte, sans-serif;
+}
+
+.MainMenu {
+    flex: 1;
+}
+
+.MainMenu.is-visible .MainMenu__navList {
+    display: flex;
+    padding: 0;
+}
+
+li{
+    padding: 0;
+    border: 0;
+    margin: 0;
+    font-size: 100%;
+    vertical-align: initial;
+}
+
+button {
+    border: 0;
+    background-color: transparent;
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 0 16px;
+}
+
+.MainMenuEntry {
+    display: flex;
+    flex-direction: column;
+    padding: 0 1px;
+}
+
+.MainMenuEntry__link {
+    display: flex;
+    align-items: center;
+    padding: 0 17.5px;
+    font-size: 0.9rem;
+    font-family: Megabytebold, sans-serif;
+    font-weight: 700;
+}
