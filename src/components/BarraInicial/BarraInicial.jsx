@@ -29,7 +29,9 @@ const BarraInicial = () => {
                                         <button className='MainMenuEntry__link'>MODELS</button>
                                     </li>
                                     <li className='MainMenuEntry'>
-                                        <button className='MainMenuEntry__link'>SHOP</button>
+                                        <a href='https://boutique.alpinecars.com/?utm_source=AlpineBou&utm_medium=referral&utm_campaign=FR'>
+                                            <button className='MainMenuEntry__link'>SHOP</button>
+                                        </a>
                                     </li>
                                     <div className='HeaderButtons'>
                                         <a title="Our Network" className='HeaderButtons__button' href="https://www.alpine-cars.co.uk/alpine-centers.html">
@@ -49,25 +51,25 @@ const BarraInicial = () => {
                             <ul className='SubNav__links'>
                                 <li className='SubNav__linkItem'>
                                     ::before
-                                    <a title className='SubNav__link' href="/formula-1.html">Formula 1</a>
+                                    <a title className='SubNav__link' href="https://www.alpine-cars.co.uk/formula-1.html">Formula 1</a>
                                 </li>
                                 <li className='SubNav__linkItem'>
-                                    <a title className='SubNav__link' href="/formula-1.html">F1 News</a>
+                                    <a title className='SubNav__link' href="https://www.alpine-cars.co.uk/formula-1/f1-news.html">F1 News</a>
                                 </li>
                                 <li className='SubNav__linkItem'>
-                                    <a title className='SubNav__link' href="/formula-1.html">2023 Season</a>
+                                    <a title className='SubNav__link' href="https://www.alpine-cars.co.uk/formula-1/championship.html">2023 Season</a>
                                 </li>
                                 <li className='SubNav__linkItem'>
-                                    <a title className='SubNav__link' href="/formula-1.html">F1 Team</a>
+                                    <a title className='SubNav__link' href="https://www.alpine-cars.co.uk/formula-1/f1-team.html">F1 Team</a>
                                 </li>
                                 <li className='SubNav__linkItem'>
-                                    <a title className='SubNav__link' href="/formula-1.html">A523</a>
+                                    <a title className='SubNav__link' href="https://www.alpine-cars.co.uk/formula-1/a523.html">A523</a>
                                 </li>
                                 <li className='SubNav__linkItem'>
-                                    <a title className='SubNav__link' href="/formula-1.html">Partners</a>
+                                    <a title className='SubNav__link' href="https://www.alpine-cars.co.uk/formula-1/f1-partners.html">Partners</a>
                                 </li>
                                 <li className='SubNav__linkItem'>
-                                    <a title className='SubNav__link' href="/formula-1.html">The Academy</a>
+                                    <a title className='SubNav__link' href="https://www.alpine-cars.co.uk/formula-1/alpine-academy.html">The Academy</a>
                                 </li>
                             </ul>
                             <div className='SubNav__buttons'>
