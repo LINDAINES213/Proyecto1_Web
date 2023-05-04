@@ -31,15 +31,74 @@ const BarraInicial = () => {
                                     <li className='MainMenuEntry'>
                                         <button className='MainMenuEntry__link'>SHOP</button>
                                     </li>
+                                    <div className='HeaderButtons'>
+                                        <a title="Our Network" className='HeaderButtons__button' href="https://www.alpine-cars.co.uk/alpine-centers.html">
+                                            <div className='HeaderButtons__icon'></div>
+                                            <div className='HeaderButtons__text'>Our network</div>
+                                        </a>
+                                    </div>
                                 </ul>
                             </div>
                         </div>
                     </div>
                 </div>
+                <div className='SubNav'>
+                    <div className='Sentinel__top' style={{top: '0px'}}></div>
+                    <div className='SubNav__wrapper'>
+                        <div className='SubNav__content'>
+                            <ul className='SubNav__links'>
+                                <li className='SubNav__linkItem'>
+                                    ::before
+                                    <a title className='SubNav__link' href="/formula-1.html">Formula 1</a>
+                                </li>
+                                <li className='SubNav__linkItem'>
+                                    <a title className='SubNav__link' href="/formula-1.html">F1 News</a>
+                                </li>
+                                <li className='SubNav__linkItem'>
+                                    <a title className='SubNav__link' href="/formula-1.html">2023 Season</a>
+                                </li>
+                                <li className='SubNav__linkItem'>
+                                    <a title className='SubNav__link' href="/formula-1.html">F1 Team</a>
+                                </li>
+                                <li className='SubNav__linkItem'>
+                                    <a title className='SubNav__link' href="/formula-1.html">A523</a>
+                                </li>
+                                <li className='SubNav__linkItem'>
+                                    <a title className='SubNav__link' href="/formula-1.html">Partners</a>
+                                </li>
+                                <li className='SubNav__linkItem'>
+                                    <a title className='SubNav__link' href="/formula-1.html">The Academy</a>
+                                </li>
+                            </ul>
+                            <div className='SubNav__buttons'>
+                                <button className='SubNav__button Button_superPrimary'>Join Us</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </header>
+            
         </body>
     
   )
 }
+
+/**
+ * <div className='ContentZone ContentZone__submenu'>
+                <div className='SubNav'>
+                    <div className='Sentinel__top' style="top:0px"></div>
+                    <div className='SubNav__wrapper'>
+                        <div className='SubNav__content'>
+                            <ul className='SubNav__links'>
+                                <li className='SubNav__linkItem'>
+                                    ::before
+                                    <a title className='SubNav__link' href="/formula-1.html">Formula 1</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+ */
 
 export default BarraInicial

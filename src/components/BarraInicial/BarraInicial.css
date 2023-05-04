@@ -55,7 +55,7 @@ div{
     display: block;
     margin: 0 auto;
     width: 220px;
-    left: 509.5px;
+    left: 55px;
     position:relative;
 }
 
@@ -131,4 +131,114 @@ button {
     font-size: 0.9rem;
     font-family: Megabytebold, sans-serif;
     font-weight: 700;
+}
+
+.HeaderButtons {
+    position: static;
+    margin-right: 24px;
+    margin-left: 876px;
+    display: flex;
+}
+
+.HeaderButtons__button {
+    flex-direction: row;
+    width: auto;
+    padding: 0;
+    margin-left: 20px;
+    color: #000;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    line-height: inherit;
+}
+
+.HeaderButtons__icon {
+    position: relative;
+    display: inline;
+}
+
+.HeaderButtons__text {
+    margin-top: 0;
+    margin-right: 8px;
+    font-size: 0.8rem;
+    line-height: 0.6rem;
+}
+
+.SubNav .SubNav__wrapper {
+    position: relative;
+    width: 100%;
+}
+
+.SubNav__content {
+    padding: 0;
+    background-color: #000;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+.SubNav__links {
+    padding: 0;
+    overflow-x: initial;
+    display: flex;
+}
+
+
+.SubNav__link {
+    padding: 3px 14.6px;
+    color: #fff;
+    font-size: 0.9rem;
+    line-height: 1.21;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.SubNav__linkItem:first-child {
+    margin-left: -65px;
+}
+
+.SubNav__linkItem {
+    padding: 0 0;
+    white-space: normal;
+    position: relative;
+    display: flex;
+    height: 100%;
+    cursor: pointer;
+}
+
+.SubNav__buttons {
+    position: static;
+    width: auto;
+    padding: 0;
+    font-size: 0.8rem;
+    opacity: 1;
+    visibility: visible;
+    box-shadow: none;
+}
+
+.SubNav__button {
+    width: auto;
+    height: 100%;
+    margin: auto;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 16px;
+}
+
+.Button_superPrimary {
+    background-color: #000;
+    color: #fff; 
+    font-size: 1rem;
+    font-family: Megabyte, sans-serif;
+
+}
+
+.Sentinel__bottom, .Sentinel__top {
+    position: absolute;
+    right: 0;
+    left: 0;
+    height: 30px;
+    visibility: hidden;
 }
