@@ -1,0 +1,67 @@
+@font-face {
+    font-family: Megabyte;
+    font-style: normal;
+    font-weight: 400;
+    src: url('/db.onlinewebfonts.com/t/2566fcbfa72212c1cadad4627e4998e2.woff2') format('woff2'),
+    url("//db.onlinewebfonts.com/t/2566fcbfa72212c1cadad4627e4998e2.woff") format("woff");
+  }
+
+@font-face {
+    font-family: MegabyteBold;
+    font-style: semibold;
+    font-weight: 700;
+    src: url("//db.onlinewebfonts.com/t/7374957f01c062a535549b345d32dc1b.woff2") format("woff2"), 
+    url("//db.onlinewebfonts.com/t/7374957f01c062a535549b345d32dc1b.woff") format("woff");
+  }
+
+  .LastImage {
+    grid-area: main;
+    position:absolute;
+    display: grid;
+    width: 100%;
+    height: 400px;
+    top:27%;
+    left:0;
+}
+
+  
+h1 {
+    position: absolute;
+    top: 485px;
+    left: 50px;
+    color: white;
+    font-size: 36px;
+    z-index: 2;
+    transform: translate(30%, -30%);
+}
+
+img {
+    display: block;
+    margin:0 auto;
+    width: 1483px;
+    height: auto;
+    position: relative;
+    z-index: 1;
+}
+
+.RacingHeader__text {
+    padding-bottom: 96px;
+    z-index: 6;
+    align-self: end;
+    grid-area: main;
+    padding: 0 16px 48px;
+    color: #fff;
+    position: absolute;
+    text-align: center;
+}
+
+.RacingHeader__title {
+    z-index: 6;
+    font-size: 5rem;
+    font-family: MegabyteBold;
+    position: absolute;
+    line-height: 1;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+}

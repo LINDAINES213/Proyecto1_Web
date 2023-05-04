@@ -2,7 +2,7 @@ import { useState } from 'react'
 import './BarraInicial.css'
 
 const BarraInicial = () => {
-    // url imagen ocon, gasly https://cdn.group.renault.com/alp/master/formula-1/alpine-F1-equipe-01%20desktop.jpg.ximg.largex2.webp/41d3ee4cc8.webp
+   
     const [count, setCount] = useState(0)
     return (
         <body>
@@ -77,28 +77,9 @@ const BarraInicial = () => {
                     </div>
                 </div>
             </header>
-            
         </body>
     
   )
 }
-
-/**
- * <div className='ContentZone ContentZone__submenu'>
-                <div className='SubNav'>
-                    <div className='Sentinel__top' style="top:0px"></div>
-                    <div className='SubNav__wrapper'>
-                        <div className='SubNav__content'>
-                            <ul className='SubNav__links'>
-                                <li className='SubNav__linkItem'>
-                                    ::before
-                                    <a title className='SubNav__link' href="/formula-1.html">Formula 1</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
- */
 
 export default BarraInicial
