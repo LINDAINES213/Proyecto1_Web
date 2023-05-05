@@ -5,6 +5,7 @@ import Imagen1 from './components/Imagen1/Imagen1'
 import Texto1 from './components/Texto1/Texto1'
 import DriverCards from './components/DriverCards/DriverCards'
 import ManagementCards from './components/ManagementCards/ManagementCards'
+import BigCards from './components/BigCards/BigCards'
 
 function App() {
   return (
@@ -23,6 +24,9 @@ function App() {
       </div>
       <div>
         <ManagementCards />
+      </div>
+      <div>
+        <BigCards/>
       </div>
     </div>
   )

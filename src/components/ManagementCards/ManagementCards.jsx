@@ -8,10 +8,7 @@ const ManagementCards = () => {
     return (
         <div className="ManagementCards">
             <h1>MANAGEMENT</h1>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
+            <br/><br/><br/><br/>
             <div className='containerM'>
                 <div className='cardM'>
                     <img src="https://cdn.group.renault.com/alp/master/formula-1/alpine-F1-equipe-02.jpg.ximg.largex2.webp/e190c80ab0.webp"/>
@@ -32,9 +29,7 @@ const ManagementCards = () => {
                     <p>Find out more</p>
                 </div>
             </div>
-            <br></br>
-            <br></br>
-            <br></br>
+            <br/><br/><br/>
             <div className='containerM'>
                 <div className='cardM'>
                     <img src="https://cdn.group.renault.com/alp/master/formula-1/alpine-F1-equipe-05.jpg.ximg.largex2.webp/0e6654b5ab.webp"/>
