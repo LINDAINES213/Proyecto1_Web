@@ -3,6 +3,7 @@ import './App.css'
 import BarraInicial from './components/BarraInicial/BarraInicial'
 import Imagen1 from './components/Imagen1/Imagen1'
 import Texto1 from './components/Texto1/Texto1'
+import DriverCards from './components/DriverCards/DriverCards'
 
 function App() {
   return (
@@ -15,6 +16,9 @@ function App() {
       </div>
       <div>
         <Texto1 />
+      </div>
+      <div>
+        <DriverCards />
       </div>
     </div>
   )

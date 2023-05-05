@@ -55,5 +55,9 @@
 .Component4v0__body {
     margin-top: -20px;
     font-size: 1rem;
-    line-height: 0.35;
+    line-height: 1.50;
+}
+
+.Component4v0__body p{
+    margin-bottom: 85px;
 }

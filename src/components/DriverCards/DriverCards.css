@@ -1,0 +1,62 @@
+@font-face {
+    font-family: Megabyte;
+    font-style: normal;
+    font-weight: 400;
+    src: url('/db.onlinewebfonts.com/t/2566fcbfa72212c1cadad4627e4998e2.woff2') format('woff2'),
+    url("//db.onlinewebfonts.com/t/2566fcbfa72212c1cadad4627e4998e2.woff") format("woff");
+  }
+
+@font-face {
+    font-family: MegabyteBold;
+    font-style: semibold;
+    font-weight: 700;
+    src: url("//db.onlinewebfonts.com/t/7374957f01c062a535549b345d32dc1b.woff2") format("woff2"), 
+    url("//db.onlinewebfonts.com/t/7374957f01c062a535549b345d32dc1b.woff") format("woff");
+  }
+
+.container div{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    margin-top: 20%;
+    width: 100%;
+    max-width: 1200px;
+    height: 420.48px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.container .card{
+    width: 400px;
+    height: 335px;
+    margin:30px;
+    text-align: left;
+    transition: all 0.25s
+}
+
+
+.container .card img{
+    width: 400px;
+    height: 225px;
+    object-fit: fill;
+    
+}
+
+.container .card h4{
+    margin-top: 2%;
+    font-family: MegabyteBold;
+    font-size: 1.7rem;
+    color: #000000;
+}
+
+.container .card p{
+    font-family: MegabyteBold;
+    font-size: 0.9rem;
+    color: #000000;
+}
+
+
+
