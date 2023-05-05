@@ -14,12 +14,19 @@
     url("//db.onlinewebfonts.com/t/7374957f01c062a535549b345d32dc1b.woff") format("woff");
   }
 
+.Page {
+    display: flex;
+    flex: 1 0 auto;
+    flex-direction: column;
+    background-color: #fff;
+}
+
 .BarraInicial_desktop {
     position: relative;
     background-color: #FFF;
     transform: translateX(0);
     top: 0;
-    height: 100%;
+    height: auto;
     transition: none;
     left: 0;
     display: flex;
