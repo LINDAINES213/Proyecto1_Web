@@ -35,8 +35,10 @@ const BarraInicial = () => {
                                         </li>
                                         <div className='HeaderButtons'>
                                             <a title="Our Network" className='HeaderButtons__button' href="https://www.alpine-cars.co.uk/alpine-centers.html">
-                                                <div className='HeaderButtons__icon'></div>
-                                                <div className='HeaderButtons__text'>Our network</div>
+                                                <div className='HeaderButtons__text'>
+                                                    <img class="izquierda" src="https://icones.pro/wp-content/uploads/2021/02/icone-de-localisation-noire.png"/>
+                                                    Our network
+                                                </div>
                                             </a>
                                         </div>
                                     </ul>

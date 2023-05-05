@@ -159,17 +159,7 @@ button {
     line-height: inherit;
 }
 
-.HeaderButtons__icon {
-    position: relative;
-    display: inline;
-}
 
-.HeaderButtons__text {
-    margin-top: 0;
-    margin-right: 8px;
-    font-size: 0.8rem;
-    line-height: 0.6rem;
-}
 
 .SubNav .SubNav__wrapper {
     position: relative;
@@ -248,4 +238,19 @@ button {
     left: 0;
     height: 30px;
     visibility: hidden;
+}
+
+img.izquierda{
+    float: left;
+    margin-top: -8px;
+    z-index: 9;
+    height: 24px;
+    width: 24px;
+}
+
+.HeaderButtons__text {
+    margin-top: 10px;
+    margin-right: 8px;
+    font-size: 0.8rem;
+    line-height: 0.6rem;
 }
