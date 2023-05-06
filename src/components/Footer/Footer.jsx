@@ -46,7 +46,7 @@ const Footer = () => {
                         <li><p>The #AlpineCars experience continues on</p></li><br />
                     </ul>
                     <ul className='containerImagenes'>
-                        <a href='https://fr-fr.facebook.com/alpinesportscars/'><img src="https://cdn-icons-png.flaticon.com/512/81/81341.png"></img></a>
+                        <a href='https://fr-fr.facebook.com/alpinesportscars/'><img src="https://cdn-icons-png.flaticon.com/256/59/59439.png"></img></a>
                         <a href='https://twitter.com/AlpineF1Team?s=20&t=HaDDdmh5jRqowXRevmR_aQ'><img src="https://img.freepik.com/iconos-gratis/gorjeo_318-788985.jpg"></img></a>
                         <a href='https://www.instagram.com/alpinecars/?hl=fr'><img src="https://cdn-icons-png.flaticon.com/512/87/87390.png"></img></a>
                         <a href='https://www.youtube.com/channel/UCzH4Iwlm8kI09wXbgHvFfIg'><img src="https://icones.pro/wp-content/uploads/2021/02/youtube-logo-icone-noir.png"></img></a>
@@ -57,9 +57,21 @@ const Footer = () => {
                 </div>
                 
             </div>
-            <br/>
-            <br/>
-            <br/>
+            <br/><br/><br/>
+            <div className='containerF3'>
+                <ul>
+                    <a href='https://www.alpine-cars.co.uk/data-privacy.html'><li>Personal data</li></a>
+                    <li>|</li>
+                    <a href='https://www.alpine-cars.co.uk/legal-mentions.html'><li>Legal Information</li></a>
+                    <li>|</li>
+                    <a href='https://www.alpine-cars.co.uk/cookies.html'><li>Cookies</li></a>
+                    <li>|</li>
+                    <a><li>Manage my cookies</li></a>
+                    <li>|</li>
+                    <a href='https://cdn.group.renault.com/alp/uk/pdf/brochures/Gender-Pay-Gap-Report-2022.pdf.asset.pdf/1261d6e196.pdf'><li>Gender Pay Report</li></a>
+                </ul>
+                <span>© Alpine 2017 - 2023</span>
+            </div>
         </div>
     )
 }

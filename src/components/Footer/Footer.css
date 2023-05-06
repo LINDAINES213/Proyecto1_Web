@@ -69,9 +69,8 @@
 }
 
 .containerImagenes{
-    top: 0;
     display: grid;
-    grid-template-columns: repeat(auto-fill, 30px);
+    grid-template-columns: repeat(auto-fill, 35px);
     gap: 16px;
   }
   
@@ -85,4 +84,35 @@
     transform: scale(1.3);
 }
 
+.containerF3 {
+    height: 10px;
+    align-items: center;
+    display: flex;
+    border-top: 1px solid #f2f2f2;
+    text-align: left;
+    bottom: 0;
+}
 
+.containerF3 ul{
+    margin-top:40px;
+    flex-direction: row;
+    flex: 1;
+}
+
+.containerF3 li{
+    position: relative;
+    display: inline-block;
+    padding: 4px 16px 4px 0;
+    color: #3e3f40;
+    font-size: 0.7rem;
+    text-align: left;
+}
+
+.containerF3 span{
+    margin-top: 25px;
+    padding-left: 8px;
+    text-transform: capitalize;
+    font-family: MegabyteBold;
+    font-weight: 700;
+    font-size: 0.6rem;
+}
