@@ -6,6 +6,7 @@ import Texto1 from './components/Texto1/Texto1'
 import DriverCards from './components/DriverCards/DriverCards'
 import ManagementCards from './components/ManagementCards/ManagementCards'
 import BigCards from './components/BigCards/BigCards'
+import Footer from './components/Footer/Footer'
 
 function App() {
   return (
@@ -27,6 +28,9 @@ function App() {
       </div>
       <div>
         <BigCards/>
+      </div>
+      <div>
+        <Footer/>
       </div>
     </div>
   )
