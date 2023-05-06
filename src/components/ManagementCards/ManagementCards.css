@@ -52,16 +52,24 @@
 }
 
 .containerM .cardM h4{
-    margin-top: 2%;
+    margin-top: 5%;
     font-family: MegabyteBold;
     font-size: 1.7rem;
+    line-height: 2rem;
     color: #000000;
     
+}
+
+.containerM .cardM h3{
+    font-family: Megabyte;
+    font-size: 1rem;
+    line-height: 2.5rem;
+    color: #000000;
 }
 
 .containerM .cardM p{
     font-family: MegabyteBold;
     font-size: 0.9rem;
-    line-height: 4;
+    line-height: 2rem;
     color: #000000;
 }
