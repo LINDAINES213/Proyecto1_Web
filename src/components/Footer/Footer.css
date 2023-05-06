@@ -24,7 +24,7 @@
 }
 
 .containerF2{
-    margin-top: 63px;
+    margin-top: 50px;
     display: flex;
     justify-content: center;
     border-top: 1.5px;
@@ -67,3 +67,22 @@
 .Footer a{
     line-height: 1;
 }
+
+.containerImagenes{
+    top: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 30px);
+    gap: 16px;
+  }
+  
+.containerImagenes img{
+    width: 25px;
+    height: 25px;
+    transition: 0.4s;
+}
+
+.containerImagenes img:hover{
+    transform: scale(1.3);
+}
+
+
