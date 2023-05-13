@@ -1,17 +1,17 @@
 import React from 'react'
 import './App.css'
-import BarraInicial from './components/BarraInicial/BarraInicial'
-import Imagen1 from './components/Imagen1/Imagen1'
-import Texto1 from './components/Texto1/Texto1'
-import DriverCards from './components/DriverCards/DriverCards'
-import ManagementCards from './components/ManagementCards/ManagementCards'
-import BigCards from './components/BigCards/BigCards'
-import Footer from './components/Footer/Footer'
+import BarraInicial from './components/BarraInicial/BarraInicial.jsx'
+import Imagen1 from './components/Imagen1/Imagen1.jsx'
+import Texto1 from './components/Texto1/Texto1.jsx'
+import DriverCards from './components/DriverCards/DriverCards.jsx'
+import ManagementCards from './components/ManagementCards/ManagementCards.jsx'
+import BigCards from './components/BigCards/BigCards.jsx'
+import Footer from './components/Footer/Footer.jsx'
 
 function App() {
   return (
     <div className="App">
-      <header className='App-header'>
+      <header className="App-header">
         <BarraInicial />
       </header>
       <div>
@@ -27,10 +27,10 @@ function App() {
         <ManagementCards />
       </div>
       <div>
-        <BigCards/>
+        <BigCards />
       </div>
       <div>
-        <Footer/>
+        <Footer />
       </div>
     </div>
   )
