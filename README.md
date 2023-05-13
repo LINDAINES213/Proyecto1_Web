@@ -14,11 +14,19 @@ Para este proyecto se hizo una réplica de alguna página web que nosotros escog
 ```bash
 npm create vite@latest <nombre-de-mi-proyecto>
 ```
-- `Dependencias`: Se realiza una instalación de las dependencias npm con el comando 
+Para poder instalas este proyecto en tu dispositivo corre el siguiente comando:
+```bash
+git clone https://github.com/LINDAINES213/Proyecto1_Web.git
+```
+- `Dependencias`: Realiza una instalación de las dependencias npm con el comando 
 ```bash
 npm install
 ``` 
-en la terminal dentro de la carpeta del proyecto de vite creado
+en la terminal dentro de la carpeta del proyecto de vite creado o clonado.
+- `Correr Programa`: Para correr el programa copia este comanto en la terminal dentro de la carpeta del proyecto
+```bash
+npm run dev
+```
 - `React y ESLint`: Al código se le implementaron las siguientes reglas de ESLint como base 
 ```bash
 'plugin:react/recommended', 'airbnb-base', 'airbnb/rules/react' 
