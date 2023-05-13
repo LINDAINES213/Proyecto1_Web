@@ -22,7 +22,7 @@ git clone https://github.com/LINDAINES213/Proyecto1_Web.git
 ```bash
 npm install
 ``` 
-en la terminal dentro de la carpeta del proyecto de vite creado o clonado.
+en la terminal dentro de la carpeta del proyecto de vite creado o clonado. <br>
 `Correr Programa`: Para correr el programa copia este comanto en la terminal dentro de la carpeta del proyecto
 ```bash
 npm run dev
