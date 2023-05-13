@@ -2,14 +2,16 @@
 
 ## 🚗 Duplicando una página web
 
-- Para este proyecto se hizo una réplica de alguna página web que nosotros escogieramos, en este caso se realizó la del equipo Alpine de Fórmula 1 https://www.alpine-cars.co.uk/formula-1/f1-team.html utilizando componentes de React y Vite.
+- Para este proyecto se hizo una réplica de alguna página web que nosotros escogieramos, en este caso se realizó la del equipo Alpine de Fórmula 1 utilizando componentes de React y Vite.
 
-\## 📁 Acceso al proyecto
+## 💻 Páginas Web
+- Página original: https://www.alpine-cars.co.uk/formula-1/f1-team.html
+- Réplica: https://uvgenios.online/21169/Proyecto1_Web/dist/index.html
 
-**Indica cómo se puede descargar o acceder al código fuente del proyecto, ya sea proyecto inicial o final**
+## 👩‍💻 Tecnologías implementadas y proceso
 
-\## 🛠️ Abre y ejecuta el proyecto
-
-**Muestra las instrucciones necesarias para abrir y ejecutar el proyecto**
-
-- `Funcionalidad 1`: descripción de la funcionalidad 1- `Funcionalidad 2`: descripción de la funcionalidad 2- `Funcionalidad 2a`: descripción de la funcionalidade 2a relacionada con la funcionalidad 2- `Funcionalidad 3`: descripción de la funcionalidad 3
+- - `Entorno Vite`: Para la creacion del entorno vite del proyecto se ejecuta el comando ```npm create vite@latest <nombre-de-mi-proyecto>```
+- - `Dependencias`: Se realiza una instalación de las dependencias npm con el comando ```npm install``` en la terminal dentro de la carpeta del proyecto de vite creado
+- - `React y ESLint`: descripción de la funcionalidad 2
+- - `Funcionalidad 2a`: descripción de la funcionalidade 2a relacionada con la funcionalidad 2
+- - `Funcionalidad 3`: descripción de la funcionalidad 3
