@@ -31,7 +31,7 @@ npm run dev
 ```bash
 'plugin:react/recommended', 'airbnb-base', 'airbnb/rules/react' 
 ``` 
-pero tiene algunas extra añadidas.
+pero tiene algunas extra añadidas. <br><br>
 `Script ESLint`: En el repositorio se proporciona un script (.eslintrc.json) para ver si el código de react contiene errores. Para probarlo se dirige a la carpeta donde se encuentre el archivo con extension .jsx que desee analizar y se corre el comando 
 ```bash
 npx eslint nombre-archivo.jsx
