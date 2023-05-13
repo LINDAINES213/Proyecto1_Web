@@ -29,7 +29,7 @@ npm run dev
 ```
 `React y ESLint`: Al código se le implementaron las siguientes reglas de ESLint como base 
 ```bash
-'plugin:react/recommended', 'airbnb-base', 'airbnb/rules/react' 
+'plugin:react/recommended', 'airbnb-base'
 ``` 
 pero tiene algunas extra añadidas. <br><br>
 `Script ESLint`: En el repositorio se proporciona un script (.eslintrc.json) para ver si el código de react contiene errores. Para probarlo se dirige a la carpeta donde se encuentre el archivo con extension .jsx que desee analizar y se corre el comando 
