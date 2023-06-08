@@ -27,7 +27,7 @@ en la terminal dentro de la carpeta del proyecto de vite creado o clonado. <br><
 ```bash
 npm run dev
 ```
-Si se corrio exitosamente deberia salirte esto en la terminal, donde se muestra el link donde se esta ejecutando la pagina web para que la puedas ir visualizando. <br><br>
+Si se corrio exitosamente deberia salirte esto en la terminal, donde se muestra el link donde se esta ejecutando la pagina web para que la puedas ir visualizando. Para abrir la pagina en el navegador puedes copiar el link o solo presionar la letra o, y en caso sea necesario para reiniciar la pagina se presiona la letra r. <br><br>
 ![image](https://github.com/LINDAINES213/Proyecto1_Web/assets/77686175/ed35df22-ec90-445c-b8c2-bbc0dd2f91db)
 <br><br>
 `React y ESLint`: Al código se le implementaron las siguientes reglas de ESLint como base 
