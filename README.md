@@ -14,7 +14,7 @@ Para este proyecto se hizo desde cero la página web que nosotros escogieramos, 
 ```bash
 npm create vite@latest <nombre-de-mi-proyecto>
 ```
-Para poder correr este proyecto en tu dispositivo corre el siguiente comando:
+Para poder correr este proyecto en tu dispositivo corre el siguiente comando en tu terminal:
 ```bash
 git clone https://github.com/LINDAINES213/Proyecto1_Web.git
 ```
@@ -23,7 +23,7 @@ git clone https://github.com/LINDAINES213/Proyecto1_Web.git
 npm install
 ``` 
 en la terminal dentro de la carpeta del proyecto de vite creado o clonado. <br><br>
-`Correr Programa`: Para correr el programa copia este comanto en la terminal dentro de la carpeta del proyecto
+`Correr Programa`: Para correr el programa copia este comando en la terminal dentro de la carpeta del proyecto
 ```bash
 npm run dev
 ```
