@@ -34,7 +34,7 @@ Si se corrio exitosamente deberia salirte esto en la terminal, donde se muestra 
 ```bash
 'plugin:react/recommended', 'airbnb-base'
 ``` 
-pero tiene algunas extra añadidas como el prittier para los puntps y coma, entre otros. <br><br>
+pero tiene algunas extra añadidas como el prittier para los puntos y coma al final de cada linea de codigo, entre otros. <br><br>
 `Script ESLint`: En el repositorio se proporciona un script (.eslintrc.json) para ver si el código de react contiene errores. Para probarlo se dirige a la carpeta donde se encuentre el archivo con extension .jsx que desee analizar y se corre el comando 
 ```bash
 npx eslint nombre-archivo.jsx
