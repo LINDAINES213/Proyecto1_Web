@@ -52,7 +52,7 @@ En este caso se analizaron los archivos de App.jsx, main.jsx y BarraInicial.jsx 
 
 Y listo! Ya tienes este proyecto configurado y listo para visualizar en tu computadora. <br><br>
 
-Cualquier duda puedes contactarme a mi correo mailto:lijv1333@gmail.com <br><br>
+Cualquier duda puedes contactarme a mi correo lijv1333@gmail.com <br><br>
 
 ![Alpine (1)](https://github.com/LINDAINES213/Proyecto1_Web/assets/77686175/d29df240-fee5-417e-a94a-bf01890e792f)<br><br>
 
