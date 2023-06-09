@@ -23,7 +23,7 @@ cd Proyecto1_Web
 ```bash
 npm install
 ``` 
-en la terminal siempre dentro de la carpeta del proyecto de vite en este caso clonado. <br><br>
+en la terminal siempre dentro de la carpeta del proyecto de Vite que cloanste en este caso. <br><br>
 `Correr Programa`: Para correr el programa copia este comando en la terminal dentro de la carpeta del proyecto
 ```bash
 npm run dev
@@ -51,6 +51,8 @@ Si el archivo no contiene ningun error, luego de ingresar el comando de `npx esl
 En este caso se analizaron los archivos de App.jsx, main.jsx y BarraInicial.jsx donde no se imprimio nada mas que la linea para seguir escribiendo comandos.
 
 Y listo! Ya tienes este proyecto configurado y listo para visualizar en tu computadora. <br><br>
+
+Cualquier duda puedes contactarme a mi correo mailto:lijv1333@gmail.com <br><br>
 
 ![Alpine (1)](https://github.com/LINDAINES213/Proyecto1_Web/assets/77686175/d29df240-fee5-417e-a94a-bf01890e792f)<br><br>
 
