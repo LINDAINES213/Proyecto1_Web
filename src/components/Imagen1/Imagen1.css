@@ -27,9 +27,9 @@
   
 h1 {
     position: absolute;
-    top: 485px;
-    left: 50px;
-    color: white;
+    top: 550px;
+    left: 180px;
+    color: rgb(206, 206, 206);
     font-size: 36px;
     z-index: 2;
     transform: translate(30%, -30%);
